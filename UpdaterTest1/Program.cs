@@ -16,7 +16,7 @@ namespace UpdaterTest1
         [STAThread]
         static void Main()
         {
-            AutoUpdater.Start("https://github.com/VasenevEA/UpdaterTest/blob/master/UpdaterTest1/ver.xml");
+            AutoUpdater.Start("C:/Users/Evgeniy/Dropbox/ver.xml");
             AutoUpdater.CurrentCulture = CultureInfo.CreateSpecificCulture("ru");
             AutoUpdater.ReportErrors = true;
             AutoUpdater.ShowSkipButton = false;
